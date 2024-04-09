@@ -1,0 +1,22 @@
+{
+  "name": "InvApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon BackEnd/index.js"
+  },
+  "keywords": [],
+  "author": "Sandra Pinilla Pérez https://www.linkedin.com/in/sandrapinillaperez/",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^17.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.15",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "description": ""
+}
