@@ -1,6 +1,6 @@
 {
-  "name": "InvApp",
-  "version": "1.0.0",
+  "name": "Inv-App",
+  "version": "1.0.'",
   "main": "index.js",
   "scripts": {
     "start": "nodemon BackEnd/index.js"

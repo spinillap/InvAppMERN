@@ -9,10 +9,10 @@ const { mongoose } = require('./database'); // no se quiere todo el archivo sino
 // Configuraciones
 
 
-app.set('port', process.env.PORT || 9000);
+app.set('port', process.env.PORT || 3000);
 app.use(morgan('dev')); 
 app.use(express.json()); // método que ayuda a convertir el código para que el servidor pueda entender lo que viene del cliente.
-app.use(cors({origin: 'http://localhost:4200'})); // método para comunicar con el cliente, SE DEBE CAMBIAR POR LOCAL 3000
+app.use(cors({origin: 'http://localhost:5173'})); // método para comunicar con el cliente, 
 
 
 // rutas de nuestro servidor

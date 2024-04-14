@@ -1,0 +1,11 @@
+.field-input{
+    background-color: transparent !important;
+    color: #71f506 !important
+}
+
+.field-input:focus{
+    background-color: transparent !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color :aqua !important
+}
+
